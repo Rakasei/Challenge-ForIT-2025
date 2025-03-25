@@ -120,7 +120,7 @@ const TaskList = () => {
         />
 
         <div className="form-check mb-3 tableFilter">
-          <button
+          <input
             className="form-check-input"
             type="checkbox"
             id="hideCompleted"
