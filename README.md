@@ -77,8 +77,13 @@ http://localhost:5173/
 # ![image](https://github.com/user-attachments/assets/f3990df0-793e-4e81-b0b8-1055a269e998)
 # ![image](https://github.com/user-attachments/assets/278b29be-8075-473f-88bd-fafbabcf8f1b)
 
+## 📜 Licencia  
+Este proyecto está bajo la licencia MIT. ¡Podés usarlo y modificarlo libremente!.  
 
-
+## 📩 Contacto  
+ **Rodrigo Ruiz**  
+📧 Email: [rodrigo.ezequiel.ruiz@gmail.com](mailto:rodrigo.ezequiel.ruiz@gmail.com)  
+🔗 GitHub: [Rakasei](https://github.com/Rakasei)  
 
 
 
