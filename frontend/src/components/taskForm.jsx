@@ -23,7 +23,7 @@ const TaskForm = () => {
           setTitle(task.title);
           setDescription(task.description);
           setCompleted(task.completed);
-          setExpiration(task.expiration);
+          setExpiration(task.expiration ? task.expiration.slice(0, 16) : "");
           setPriority(task.priority);
         }
         setLoading(false);
