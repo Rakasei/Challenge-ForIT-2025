@@ -77,6 +77,14 @@ http://localhost:5173/
 # ![image](https://github.com/user-attachments/assets/f3990df0-793e-4e81-b0b8-1055a269e998)
 # ![image](https://github.com/user-attachments/assets/278b29be-8075-473f-88bd-fafbabcf8f1b)
 
+## Características adicionales del proyecto
+ ### variables de entorno configuradas para el backend y el frontend
+![image](https://github.com/user-attachments/assets/1a267e77-dbb6-4a7e-a94f-24b49dc00d3f)![image](https://github.com/user-attachments/assets/838d5aed-14c4-465c-911d-c18d9f7b87f9)
+ ### Uso de Bootstrap
+ ###
+
+
+
 ## 📜 Licencia  
 Este proyecto está bajo la licencia MIT. ¡Podés usarlo y modificarlo libremente!.  
 
