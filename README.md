@@ -1,6 +1,6 @@
 ## Challenge-ForIT-2025 
 # Organizador de tareas 
- ¡Hola! Mi nombre es Rodrigo Ruiz, soy desarrollador web. Este proyecto es parte del Challenge para el ingreso a la Academia ForIT 2025. El objetivo es crear una aplicación básica de lista de tareas que demuestre conocimientos fundamentales de
+ ¡Hola! Mi nombre es Rodrigo Ruiz y soy desarrollador web. Este proyecto es parte del Challenge para el ingreso a la Academia ForIT 2025. El objetivo es crear una aplicación básica de lista de tareas que demuestre conocimientos fundamentales de
 Git, JavaScript, Node.js y React.
  
 ### Requisitos para su uso:
