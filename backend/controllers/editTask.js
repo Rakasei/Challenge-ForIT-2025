@@ -4,7 +4,7 @@ module.exports = async (req, res) => {
 
     try {
         const { id } = req.params;
-        const { title, description, group, updatedAt } = req.body;
+        const { title, description, group, completed, priority, expiration } = req.body;
 
         if (!title || !description === undefined ) {
             return res.status(400).json({ error: 'El título y la descripción son requeridos' });
@@ -12,8 +12,8 @@ module.exports = async (req, res) => {
 
         const taskIndex = tasks.findIndex(task => task.id === parseInt(id));
 
-        if (taskIndex === -1){
-            return res.status(404).json({ error: 'Tarea no encontrada' });
+        if (taskIndex === -1) {
+            return res.status(404).json({ error: "Tarea no encontrada" });
         }
       
         tasks[taskIndex] = {
@@ -21,6 +21,9 @@ module.exports = async (req, res) => {
             title: title || tasks[taskIndex].title,
             description: description || tasks[taskIndex].description,
             group: group || tasks[taskIndex].group,
+            completed: completed ?? tasks[taskIndex].completed,
+            priority: priority ?? tasks[taskIndex].priority,
+            expiration: expiration ?? tasks[taskIndex].expiration,
             updatedAt: new Date().toISOString() 
         };
 

@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 #root {
+ background-color: whitesmoke;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -40,3 +43,46 @@
 .read-the-docs {
   color: #888;
 }
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.containerSubtitle{
+  display: flex;
+  gap: 50em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+.buttons{
+  margin-left: 0.4em;
+}
+
+.truncate-text {
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;  
+}
+
+.containerInputForm{
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
+
+.tableFilter{
+  display: flex;
+  gap: 0.4em;
+  justify-content: right;
+}
+
+body{
+  background-color: rgb(231, 231, 231);
+}
+
+

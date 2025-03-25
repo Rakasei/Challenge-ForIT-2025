@@ -4,7 +4,7 @@ module.exports = async (req, res) => {
 
     try {
 
-        const { title, description, group } = req.body;
+        const { title, description, group, completed, priority, expiration } = req.body;
 
         if (!title || !description === undefined ) {
             return res.status(400).json({ error: 'El título y la descripción son requeridos' });
@@ -15,6 +15,9 @@ module.exports = async (req, res) => {
             title,
             description,
             group : group || null,
+            completed: completed ?? tasks[taskIndex].completed,
+            priority: priority ?? tasks[taskIndex].priority,
+            expiration: expiration ?? tasks[taskIndex].expiration,
             createdAt : new Date().toISOString(),
             updatedAt : null
         }
